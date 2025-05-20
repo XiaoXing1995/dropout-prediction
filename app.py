@@ -35,7 +35,7 @@ st.markdown("""
 
 # Load model and features
 model = joblib.load("best_model.pkl")
-scaler = joblib.load("scaler.pkl")
+#scaler = joblib.load("scaler.pkl")
 top25_features = joblib.load("features.pkl")
 top5_display_features = top25_features[:5]
 
